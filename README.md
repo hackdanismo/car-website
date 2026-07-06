@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Sanity
+
+### Sanity Studio
+`Sanity Studio` is the admin/editor interface for the `Sanity CMS`. This is where content can be added to update pages, create blog posts, edit page content, upload assets and manage authors. Think of it like the WordPress dashboard, but customizable and schema-driven.
+
+We create a new `Studio` with `Sanity CLI`:
+
+```shell
+$ npm create sanity@latest -- --project ot9v5q82 --dataset production --template clean --typescript --output-path studio-car-website
+$ cd studio-car-website
+```
+
+The `Sanity Studio` can then be run locally:
+
+```shell
+$ npm run dev
+```
+
+Open the `Studio` running locally in your browser from: `http://localhost:3333`. You should now see a screen prompting you to log in to the Studio. Use the same service (Google, GitHub, or email) that you used when you logged in to the CLI.
