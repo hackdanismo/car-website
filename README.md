@@ -40,11 +40,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ### Sanity Studio
 `Sanity Studio` is the admin/editor interface for the `Sanity CMS`. This is where content can be added to update pages, create blog posts, edit page content, upload assets and manage authors. Think of it like the WordPress dashboard, but customizable and schema-driven.
 
-We create a new `Studio` with `Sanity CLI`:
+Follow these steps once a `Sanity` account has been created and a project has been generated.
+
+We create a new `Studio` with `Sanity CLI`. Follow the instructions in the terminal:
 
 ```shell
-$ npm create sanity@latest -- --project ot9v5q82 --dataset production --template clean --typescript --output-path studio-car-website
-$ cd studio-car-website
+$ npx sanity@latest init
 ```
 
 The `Sanity Studio` can then be run locally:
@@ -53,4 +54,4 @@ The `Sanity Studio` can then be run locally:
 $ npm run dev
 ```
 
-Open the `Studio` running locally in your browser from: `http://localhost:3333`. You should now see a screen prompting you to log in to the Studio. Use the same service (Google, GitHub, or email) that you used when you logged in to the CLI.
+Open the `Studio` running locally in your browser from: `http://localhost:3000/studio` and You should now see a screen prompting you to log in to the Studio. Login using `Google` or other credentials. Use the same service (Google, GitHub, or email) that you used when you logged in to the CLI.
