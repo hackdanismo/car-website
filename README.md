@@ -54,4 +54,4 @@ The `Sanity Studio` can then be run locally:
 $ npm run dev
 ```
 
-Open the `Studio` running locally in your browser from: `http://localhost:3000/studio` and You should now see a screen prompting you to log in to the Studio. Login using `Google` or other credentials. Use the same service (Google, GitHub, or email) that you used when you logged in to the CLI.
+Open the `Studio` running locally in your browser from: `http://localhost:3000/studio` and you should now see a screen prompting you to log in to the Studio. Login using `Google` or other credentials. Use the same service (Google, GitHub, or email) that you used when you logged in to the CLI.
