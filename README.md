@@ -139,25 +139,26 @@ export const NewsArticle = defineType({
                     },
                 },
             ],
-        }),
-        defineField({
+          }),
+      
+          defineField({
             name: 'seoTitle',
             title: 'SEO title',
             type: 'string',
-        }),
+          }),
       
-        defineField({
+          defineField({
             name: 'seoDescription',
             title: 'SEO description',
             type: 'text',
             rows: 2,
-        }),
+          }),
     ],
     preview: {
         select: {
-            title: 'title',
-            subtitle: 'publishedAt',
-            media: 'mainImage',
+          title: 'title',
+          subtitle: 'publishedAt',
+          media: 'mainImage',
         },
     },
 })

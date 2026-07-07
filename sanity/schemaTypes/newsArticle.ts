@@ -48,15 +48,15 @@ export const NewsArticle = defineType({
             title: 'Body',
             type: 'array',
             of: [
-              {
-                type: 'block',
-              },
-              {
-                type: 'image',
-                options: {
-                  hotspot: true,
+                {
+                    type: 'block',
                 },
-              },
+                {
+                    type: 'image',
+                    options: {
+                        hotspot: true,
+                    },
+                },
             ],
           }),
       
@@ -79,5 +79,5 @@ export const NewsArticle = defineType({
           subtitle: 'publishedAt',
           media: 'mainImage',
         },
-      },
+    },
 })
