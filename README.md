@@ -71,7 +71,7 @@ $ npm run dev
 
 Open the `Studio` running locally in your browser from: `http://localhost:3000/studio` and you should now see a screen prompting you to log in to the Studio. Login using `Google` or other credentials. Use the same service (Google, GitHub, or email) that you used when you logged in to the CLI.
 
-## Setup Schema
+### Setup Schema
 A `Schema` is used to create the structure for content in the `Sanity CMS`. This creates the fields and the options for content to be added to the CMS and to the website.
 
 Open up the `sanity/schemaTypes` directory to make changes. As an example, we have the `newsArticle` schema named `newsArticle.ts`:
