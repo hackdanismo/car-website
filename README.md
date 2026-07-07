@@ -35,6 +35,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+## Run Development
+Begin by setting the recommended `Node` version using `nvm`:
+
+```shell
+# Change directory to the project folder.
+$ cd car-website
+# Set the Node version set within the .nvmrc config file using nvm:
+$ nvm use
+
+# Run the development server locally.
+$ npm run dev
+```
+
 ## Sanity
 
 ### Sanity Studio
@@ -45,12 +58,14 @@ Follow these steps once a `Sanity` account has been created and a project has be
 We create a new `Studio` with `Sanity CLI`. Follow the instructions in the terminal:
 
 ```shell
+# Install Sanity as an npm package. This will list in the package.json file.
 $ npx sanity@latest init
 ```
 
 The `Sanity Studio` can then be run locally:
 
 ```shell
+# Run the development server locally.
 $ npm run dev
 ```
 
