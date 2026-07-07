@@ -59,7 +59,6 @@ export const NewsArticle = defineType({
                 },
             ],
           }),
-      
           defineField({
             name: 'seoTitle',
             title: 'SEO title',
